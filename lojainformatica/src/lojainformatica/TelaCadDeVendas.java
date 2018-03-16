@@ -12,11 +12,11 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
-import br.edu.etec.lojainformatica.model.Cliente;
-import br.edu.etec.lojainformatica.model.Vendas;
-import br.edu.etec.lojainformatica.persistence.VendasJdbcDAO;
-import br.edu.etec.lojainformatica.persistence.ClienteJdbcDAO;
-import br.edu.etec.lojainformatica.persistence.JdbcUtil;
+import lojainformatica.model.Cliente;
+import lojainformatica.model.Vendas;
+import lojainformatica.persistence.VendasJdbcDAO;
+import lojainformatica.persistence.ClienteJdbcDAO;
+import lojainformatica.persistence.JdbcUtil;
 import java.awt.event.ActionListener;
 import java.sql.Connection;
 import java.sql.Date;

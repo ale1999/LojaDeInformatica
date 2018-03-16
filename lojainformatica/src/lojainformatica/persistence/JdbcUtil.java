@@ -1,4 +1,4 @@
-package br.edu.etec.lojainformatica.persistence;
+package lojainformatica.persistence;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

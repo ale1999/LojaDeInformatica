@@ -1,4 +1,4 @@
-package br.edu.etec.lojainformatica;
+package lojainformatica;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -11,11 +11,11 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
-import br.edu.etec.lojainformatica.model.Cliente;
-import br.edu.etec.lojainformatica.model.Hardware;
-import br.edu.etec.lojainformatica.persistence.HardwareJdbcDAO;
-import br.edu.etec.lojainformatica.persistence.JdbcUtil;
-import br.edu.etec.lojainformatica.persistence.VendasJdbcDAO;
+import lojainformatica.model.Cliente;
+import lojainformatica.model.Hardware;
+import lojainformatica.persistence.HardwareJdbcDAO;
+import lojainformatica.persistence.JdbcUtil;
+import lojainformatica.persistence.VendasJdbcDAO;
 
 public class TelaCadDeHardware extends TelaDeCadastro {
 

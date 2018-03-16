@@ -1,4 +1,4 @@
-package br.edu.etec.lojainformatica.model;
+package lojainformatica.model;
 
 public class Hardware {
 	private int id_hardware;

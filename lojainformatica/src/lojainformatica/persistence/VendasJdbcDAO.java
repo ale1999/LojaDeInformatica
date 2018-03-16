@@ -1,4 +1,4 @@
-package br.edu.etec.lojainformatica.persistence;
+package lojainformatica.persistence;
 
 
 import java.sql.Connection;
@@ -10,8 +10,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import br.edu.etec.lojainformatica.model.Cliente;
-import br.edu.etec.lojainformatica.model.Vendas;
+import lojainformatica.model.Cliente;
+import lojainformatica.model.Vendas;
 
 
 public class VendasJdbcDAO {

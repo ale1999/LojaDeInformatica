@@ -1,4 +1,4 @@
-package br.edu.etec.lojainformatica.persistence;
+package lojainformatica.persistence;
 
 
 import java.sql.Connection;
@@ -8,7 +8,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import br.edu.etec.lojainformatica.model.Cliente;
+import lojainformatica.model.Cliente;
 
 
 public class ClienteJdbcDAO {
